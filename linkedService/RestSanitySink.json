@@ -14,8 +14,7 @@
 						"referenceName": "AzureKeyVault1",
 						"type": "LinkedServiceReference"
 					},
-					"secretName": "sanitysecretone",
-					"secretVersion": "f6f74bf318d8499cafe238c8cbb625cd"
+					"secretName": "sanitysecretone"
 				}
 			}
 		}

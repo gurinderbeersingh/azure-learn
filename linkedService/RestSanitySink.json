@@ -1,6 +1,5 @@
 {
 	"name": "RestSanitySink",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "RestService",
@@ -10,10 +9,16 @@
 			"authenticationType": "Anonymous",
 			"authHeaders": {
 				"Authorization": {
-					"type": "SecureString",
-					"value": "**********"
+					"type": "AzureKeyVaultSecret",
+					"store": {
+						"referenceName": "AzureKeyVault1",
+						"type": "LinkedServiceReference"
+					},
+					"secretName": "sanitysecretone",
+					"secretVersion": "f6f74bf318d8499cafe238c8cbb625cd"
 				}
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }

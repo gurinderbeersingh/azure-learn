@@ -1,0 +1,12 @@
+{
+	"name": "RestSanitySinkCategoryDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestSanitySink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

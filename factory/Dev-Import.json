@@ -1,0 +1,9 @@
+{
+	"name": "Dev-Import",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "31a06e1a-ba64-48ef-9bc9-4bff200dea8f",
+		"tenantId": "ecfe4f79-d0fd-47bc-a56a-ee9fd6d440d6"
+	}
+}

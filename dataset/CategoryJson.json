@@ -17,17 +17,30 @@
 		"schema": {
 			"type": "object",
 			"properties": {
-				"_id": {
-					"type": "string"
-				},
-				"type": {
-					"type": "string"
-				},
-				"title": {
-					"type": "string"
-				},
-				"description": {
-					"type": "string"
+				"mutations": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"createOrReplace": {
+								"type": "object",
+								"properties": {
+									"_id": {
+										"type": "string"
+									},
+									"_type": {
+										"type": "string"
+									},
+									"title": {
+										"type": "string"
+									},
+									"description": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

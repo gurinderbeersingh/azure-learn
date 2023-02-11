@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://mjgg2pfv.api.sanity.io/v2021-06-07/data/mutate/production",
+			"url": "https://vquv1hse.api.sanity.io/v2021-06-07/data/mutate/production",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous",
 			"authHeaders": {
